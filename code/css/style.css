@@ -1,0 +1,90 @@
+*{width:100%;outline:none !important;list-style: none;}
+body{background: url(../img/bg.jpg);} 
+ul{margin-left: 0px;padding-left: 0px;}
+a{text-decoration:none;}
+
+
+/* CONFIGURAÇÕES GERAIS */
+.vam{vertical-align: middle;}
+.clear{clear: both;}
+.title{font-size: 2.5em;font-weight: normal;}
+.subTitle{font-size: 2em;font-weight: normal;}
+.text-middle{text-align: center;}
+.text-right{margin-left: 68%;}
+.float-right{float: right;}
+.top-big-spacing{margin-top: 100px !important;} 
+.upper{text-transform: uppercase;}
+
+/* COR*/
+.orange{color:#ef6c00;}
+.black{color:#000;}
+.red{color:#EA0303;}
+.white-orange{color: #FFA154;}
+
+/* MENU PRINCIPAL */
+.main-menu 		{background: #E83D0C;}
+.main-menu li 	{margin: 10px 0px;text-align: right;font-size: 1.2em;border-bottom: 2px solid #EF6C00;}
+.link-menu	 	{color: #fff;}
+
+/* CONFIGURAÇÕES - PEDIDOS */
+.head-app,.menu-app{background-color: #ef6c00;min-height:99px;vertical-align: middle;}
+.head-app{width: 60%;float: left;
+	border-bottom-right-radius: 1em;-webkit-border-bottom-right-radius: 1em;}
+.menu-app{border-bottom-left-radius: 1em;padding: 10px 0 9px 0;background-image:url(../img/menu.png);background-position: center;background-repeat:no-repeat;
+	background-size: 50%;width: 30%;float: right;}
+.opcao-list{margin-top: 30px;margin-bottom: 100px;}
+.option-open{background-color: #ef6c00;	background-image: url(../img/op-fechada.png);background-position: center;background-repeat: no-repeat;background-size: 30%;
+	height: 90px;width: 30%;float: left;z-index: 4;
+	border-top-left-radius: 1.9em;border-bottom-left-radius: 1.9em;-webkit-border-top-left-radius: 1.9em;-webkit-border-bottom-left-radius: 1.9em;}
+.option-close{background-color: #ef6c00;background-image: url(../img/op-aberta.png);background-position: center;background-repeat: no-repeat;background-size: 30%;
+	height: 90px;width: 30%;float: left;z-index: 4;
+	border-top-left-radius: 1.9em;border-bottom-left-radius: 1.9em;-webkit-border-top-left-radius: 1.9em;-webkit-border-bottom-left-radius: 1.9em;}
+.option-name{background-color: #ad7322;height: 90px;color: #fff;width: 70%;z-index: 4;float: right;
+	border-top-right-radius: 1em; -webkit-border-top-right-radius: 1em;}
+.option-fav{cursor: pointer;height: 90px;width: 20%;height: 47%;float: right;margin-right: 10px;margin-top: -3.7em;
+	transition: all 0.2s;-webkit-transition: all 0.2s;}
+.option-mensage{cursor: pointer;height: 90px;width: 20%;height: 47%;float: right;margin-right: 75px;margin-top: -3.7em;
+	transition: all 0.2s;-webkit-transition: all 0.2s;}
+
+/* Lista de Produtos - Configurações */
+.option-prods{background-color: #8E5A12;padding: 14px 7px;top: 67px;}
+.product{background: #fff;margin-bottom: 20px;}
+.product h3 {margin-bottom: 10px;}
+.nav-produtos li{font-size:1.5em;}
+.nav-produtos img {width: 10%;}
+.bandeiras {margin-left: 36px;  color: #848484;}
+.hover-produto:hover,.hover-produto:active{background: #fff59d;}
+
+
+/* Pedidos */
+.option-pedidos{background-color: #ef6c00;background-image: url(../img/pedidos.png);background-position: center;background-repeat: no-repeat;height: 90px;
+	width: 30%;float: left;z-index: 4;
+	border-top-left-radius: 1.9em;border-bottom-left-radius: 1.9em;-webkit-border-top-left-radius: 1.9em;-webkit-border-bottom-left-radius: 1.9em;}
+.table-pedidos{border-top: 2px solid #EF6C00;border-bottom: 2px solid #EF6C00;}
+
+/* Mensagem */
+.option-mensagem{background-color: #ef6c00;background-image: url(../img/mensage-op.png);background-position: center;background-repeat: no-repeat;height: 90px;
+	width: 30%;float: left;z-index: 4;border-top-left-radius: 1.9em;
+	border-bottom-left-radius: 1.9em;-webkit-border-top-left-radius: 1.9em;-webkit-border-bottom-left-radius: 1.9em;}
+
+/* Favorito */
+.option-favorito{background-color: #ef6c00;background-image: url(../img/fav-op.png);background-position: center;background-repeat: no-repeat;height: 90px;
+	width: 30%;float: left;z-index: 4;
+	border-top-left-radius: 1.9em;border-bottom-left-radius: 1.9em;-webkit-border-top-left-radius: 1.9em;-webkit-border-bottom-left-radius: 1.9em;}
+.fav-border 	{border: 2px solid rgba(142, 90, 18, 1);margin-top: 10px;}
+.fav-button 	{border: none;background: #EF6C00;color: #fff;width: 30%;margin-left: 5px;margin-right: 5px;
+  	transition: all 0.2s;-webkit-transition: all 0.2s;}
+.fav-button:hover,.fav-button:active{border-bottom: 3px solid #900909;
+	transition: all 0.2s;-webkit-transition: all 0.2s;}
+
+/* Mais Pedidos */
+.option-top{background-color: #ef6c00;background-image: url(../img/top.png);background-position: center;background-repeat: no-repeat;background-size: 45%;
+	height: 90px;width: 30%;float: left;z-index: 4;
+	border-top-left-radius: 1.9em;border-bottom-left-radius: 1.9em;-webkit-border-top-left-radius: 1.9em;-webkit-border-bottom-left-radius: 1.9em;}
+.top-list {margin-top: 25px;margin-left: 20px;}
+.top-list li{list-style: decimal-leading-zero;font-size: 1.5em;}
+.left-spacing {margin-left: 25px;}
+.top-button{border: none;background: #EF6C00;color: #fff;width: 30%;margin-left: 5px;margin-right: 5px;
+  	transition: all 0.2s;-webkit-transition: all 0.2s;}
+.top-button:hover,.top-button:active{border-bottom: 3px solid #900909;
+	transition: all 0.2s;-webkit-transition: all 0.2s;}

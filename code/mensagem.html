@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"  />   
+    <title>Aplicativo - Mesagens</title>
+</head>
+
+<body>
+	<div class="container">
+        <div class="col-sm-5 col-md-5 head-app">
+            <p>APP</p>
+        </div>
+        
+        <!-- Menu Principal do App - Aqui será mostrado as opções do menu,
+        tais como: Pedidos, Favoritos, Mensagens, e a logo do grupo no final
+         -->
+        <div class="col-sm-4 col-md-4 col-sm-offset-1 col-md-offset-1 menu-app">
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1 opcao-list ">
+            <!-- Itens dos Produtos - Irá indicar o restaurante e abirá a lista por JavaScript -->
+            <div class="option-mensagem col-sm-4" id="Toggle-Option">
+            </div>
+            <div class="option-name vam col-sm-8">
+                <h2 class="title">Mensagens</h2>
+            </div>
+            <!-- Lista de Produtos - Ao clicar no botão ele ira abrir por JavaScript 
+                O vendedor poderá editar quais produtos e formas de pagamento irão aparecer
+            -->
+            <div class="col-sm-10 col-md-10 option-prods">
+                <!-- Mensagem do Pedido -->
+                <div class="product">
+                    <h3 class="subTitle red upper">Atenção: O cliente deve apresentar o celular para confirmar ser dono do pedido</h3>
+                </div>
+                <div class="product Pedido">
+                    <h3 class="title orange text-middle">Pedido <span class="red">#1323</span></h3>
+                    <div class="table-pedidos">
+                        <h3 class="subTitle orange">9:50 <span class="black">Pedido Feito</span></h3>
+                        <h3 class="subTitle orange">9:55 <span class="black">Pedido Aceito</span></h3>
+                        <h3 class="subTitle orange">10:20 <span class="black">Produto sendo entregue</span></h3>
+                        <h3 class="subTitle orange">10:30 <span class="black">Produto entregue</span></h3>
+                        <h3 class="subTitle orange">10:30 <span class="black">Produto pago</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

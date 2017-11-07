@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/direct.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"  />   
+    <title>Aplicativo - Produtos</title>
+</head>
+
+<body>
+	<div class="container">
+        <div class="col-sm-5 col-md-5 head-app">
+            <p>APP</p>
+        </div>
+        
+        <!-- Menu Principal do App - Aqui será mostrado as opções do menu,
+        tais como: Pedidos, Favoritos, Mensagens, e a logo do grupo no final
+         -->
+        <div class="col-sm-4 col-md-4 col-sm-offset-1 col-md-offset-1 menu-app">
+            <nav class=" main-menu">
+                <ul>
+                    <li>
+                        <a href="index.html" class="link-menu">Home</a>
+                    </li>
+                    <li>
+                        <a href="mensagem.html" class="link-menu">Mensagem</a>
+                    </li>
+                    <li>
+                        <a href="pedidos.html" class="link-menu">Pedidos</a>
+                    </li>
+                    <li>
+                        <a href="favoritos.html" class="link-menu">Favoritos</a>
+                    </li>
+                    <li>
+                        <a href="top.html" class="link-menu">Top</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1 opcao-list ">
+            <!-- Itens dos Produtos - Irá indicar o restaurante e abirá a lista por JavaScript -->
+            <div class="option-close option-toggle col-sm-4" id="Toggle-Option">
+            </div>
+            <div class="option-name vam col-sm-8">
+                <h2 class="title">Opção 1</h2>
+                <a href="mensagem.html">
+                    <span class="option-icons">
+                        <img src="img/mensage.png" alt="" class="img-responsive option-mensage">
+                    </span>
+                </a>
+                <a href="favoritos.html">
+                    <span class="option-icons">
+                        <img src="img/fav.png" alt="" class="img-responsive option-fav">
+                    </span>
+                </a>
+            </div>
+            <!-- Lista de Produtos - Ao clicar no botão ele ira abrir por JavaScript 
+                O vendedor poderá editar quais produtos e formas de pagamento irão aparecer
+            -->
+            <div class="col-sm-10 col-md-10 option-prods">
+                <!-- Cardapio -->
+                <div class="product Cardapio">
+                    <h3 class="title orange text-middle">Cardápio</h3>
+                    <nav class="nav-produtos">
+                        <ul class="orange">
+                            <li class="hover-produto">Pizza 1 <span class="text-right">R$3,50</span></li>
+                            <li class="hover-produto">Pizza 2 <span class="text-right">R$3,50</span></li>
+                            <li class="hover-produto">Pizza 3 <span class="text-right">R$3,50</span></li>
+                            <li class="hover-produto">Pizza 4 <span class="text-right">R$3,50</span></li>
+                            <li class="hover-produto">Pizza 5 <span class="text-right">R$3,50</span></li>
+                            <li class="hover-produto">Pizza 6 <span class="text-right">R$3,50</span></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="product Pagamento">
+                    <h3 class="title orange text-middle">Formas de Pagamentos Aceitas</h3>
+                    <nav class="nav-produtos">
+                        <ul class="orange">
+                            <li class="hover-produto"><img src="img/money.png">Dinheiro</li>
+                            <li class="hover-produto"><img src="img/card.png">Cartão de Crédito
+                                <p class="bandeiras">Bandeiras: <span>
+                                    Elo, Visa, Master, Mastercard,<br />Aura, Dinners Club, America <br />Express, Hipercard
+                                    </span>
+                                </p>
+                            </li>
+                            <li class="hover-produto"><img src="img/card.png">Cartão de Dédito
+                                <p class="bandeiras">Bandeiras: <span>
+                                    Elo, Visa, Master, Mastercard,<br />Aura, Dinners Club, America <br />Express, Hipercard
+                                    </span>
+                                </p></li>
+                            <li class="hover-produto"><img src="img/cest.png">Ticket Alimentação</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1 opcao-list">
+             <div class="option-open col-sm-4" id="Toggle-Option">
+            </div>
+            <div class="option-name vam col-sm-8">
+                <h2 class="title">Opção 2</h2>
+                <span class="option-icons">
+                    <img src="img/mensage.png" alt="" class="img-responsive option-mensage">
+                </span>
+                <span class="option-icons">
+                    <img src="img/fav.png" alt="" class="img-responsive option-fav">
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
